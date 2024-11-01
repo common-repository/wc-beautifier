@@ -1,0 +1,318 @@
+/*Tab disable by Default without select any tab*/
+.wcb_element_wrapper{display: none;}
+.tab-content.tab-content-active{display: block;}
+.wcb_background_image{height: 60px;width: auto;cursor: pointer;}
+input.wcb_image {
+    clear: both;
+    display: block !important;
+}
+
+/* No WooCommerce Message */
+.wcb_no_woocommerce {
+    color: red;
+    background: #ffffc5;
+    display: block;
+    padding: 3px 10px;
+    margin-top: 30px;
+}
+
+.wcb_no_woocommerce>p {
+    font-size: 22px;
+}
+/* No WooCommerce Message End */
+
+/*Form's Style Start Here*/
+.wcb_element_wrapper.wcb_image_wrapper,.wcb_element_wrapper.wcb_input_wrapper, .wcb_element_wrapper.wcb_select_wrapper {
+    background: white;
+    padding: 4px;
+    width: 17%;
+    float: left;
+    min-height: 64px;
+}
+.wcb_element_wrapper.wcb_image_wrapper:hover,.wcb_element_wrapper.wcb_input_wrapper:hover, .wcb_element_wrapper.wcb_select_wrapper:hover {
+    background: rgba(234, 234, 234, 0.38);
+}
+.wcb_element_wrapper.wcb_image_wrapper{position: relative;}
+a.wcb_image_remove {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 24px;
+    height: 20px;
+    background: #ffbcbc;
+    text-align: center;
+    padding-top: 0px;
+    color: #7b2f2f;
+    cursor: pointer;
+}
+
+.wcb_element_wrapper.wcb_title_wrapper{
+    width: 100%;
+    clear: both;
+    margin-top: 4px;
+}
+/*** First time, it was hidden, finally we have shown it. se bellow selector.
+.wcb_element_wrapper.wcb_tab_wrapper h2 {
+    display: none !important;
+}
+*/
+.wcb_element_wrapper.wcb_tab_wrapper h2 {
+    color: #00b9eb;
+    font-weight: 500;
+    margin-bottom: 9px;
+}
+.wcb_element_wrapper h1,
+.wcb_element_wrapper h2,
+.wcb_element_wrapper h3,
+.wcb_element_wrapper h4,
+.wcb_element_wrapper h5,
+.wcb_element_wrapper h6,
+.wcb_element_wrapper p{
+    padding: 0;margin:0;
+}
+
+.wcb_element_wrapper.wcb_image_wrapper label,.wcb_element_wrapper.wcb_input_wrapper label, .wcb_element_wrapper.wcb_select_wrapper label {
+    width: 100%;
+    color: #2f2f2f;
+    padding-bottom: 5px;
+    display: block;
+    font-weight: 400;
+    font-style: italic;
+}
+.wcb_element_wrapper.wcb_image_wrapper:hover label,.wcb_element_wrapper.wcb_input_wrapper:hover label, .wcb_element_wrapper.wcb_select_wrapper:hover label {color: black;font-weight: 500;}
+div.wcb_wrap form.form_generator .submit_wrapper {
+    width: 100%;
+    clear: both;
+}
+div.wcb_wrap form.form_generator {
+    background: white;
+    padding: 10px;
+}
+
+
+.wcb_title_wrapper h2.wcb_title {
+    background: rgba(30,140,190,.8);
+    padding: 5px;
+    color: white;
+}
+p.wcb_message {
+    color: green;
+    background: white;
+    padding: 10px;
+    border-left: 5px solid #1ac51a;
+}
+p.wcb_message.wcb_error {
+    color: #d00;
+    border-left: 5px solid #d00;
+}
+.wcb_no_saved_template {
+    font-size: 25px;
+}
+p.wcb_form_description {
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+.wcb_wrap .submit_wrapper {
+    margin-top: 10px !important;
+    clear: both;
+    word-break: break-all;
+    box-sizing: border-box;
+    display: inline-table;
+    border-top: 1px solid #ddddddb3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #dddddd63;
+    padding-left: 10px;
+    width: 100%;
+}
+.wcb_wrap .submit_wrapper>button {
+    margin-right: 4px;
+}
+.wcb_wrap .submit_wrapper>button.wcb_reset_button,
+.wcb_wrap .submit_wrapper>button.wcb_reset_all_button {
+    background: #f92525;
+    color: #ffffff;
+    border: 1px solid #e43636;
+}
+.wcb_wrap .submit_wrapper>button.wcb_reset_section_button:hover,
+.wcb_wrap .submit_wrapper>button.wcb_reset_all_button:hover {
+    background: #980b0b;
+    color: white;
+    border: 1px solid #650505;
+}
+
+/*jQuery UI start */
+.wcb_wrap .wcb_element_wrapper .wp-picker-container.wp-picker-active{
+    position: absolute !important;
+    z-index: 9999 !important;
+    background: #f7f7f7;
+    padding: 3px;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.45);
+    border-radius: 5px;
+}
+.wcb_wrap .wcb_element_wrapper input.button.button-small.wp-picker-clear {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+}
+.wcb_wrap .wcb_element_wrapper .wp-picker-container.wp-picker-active .wp-picker-holder {
+    margin-top: -4px;
+}
+.wcb_wrap .wcb_element_wrapper .wp-picker-container.wp-picker-active .iris-picker{
+    border-color: #e8e8e8;
+    border-radius: 5px;
+}
+
+body.toplevel_page_wc-beautifier .select2-search--dropdown {
+    display: none !important;
+}
+/*jQuery UI End*/
+/*Nav Style Customization Start*/
+body.toplevel_page_wc-beautifier .nav-tab-active, .nav-tab-active:focus, body.toplevel_page_wc-beautifier .nav-tab-active:focus:active, body.toplevel_page_wc-beautifier .nav-tab-active:hover {
+    border-bottom: 1px solid #ffffff;
+    background: #ffffff;
+}
+/*Nav Style Customization End*/
+
+
+/*Responsive issue of Form Style*/
+@media only screen and (max-width: 1023px){
+    .wcb_element_wrapper.wcb_input_wrapper, .wcb_element_wrapper.wcb_select_wrapper {
+        padding: 1%;
+        width: 24%;
+    }
+}
+
+@media only screen and (max-width: 760px){
+    .wcb_element_wrapper.wcb_input_wrapper, .wcb_element_wrapper.wcb_select_wrapper {
+        padding: 1%;
+        width: 31%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .wcb_element_wrapper.wcb_input_wrapper, .wcb_element_wrapper.wcb_select_wrapper {
+        padding: 1%;
+        width: 98%;
+    }
+}
+
+/*Form's Style Start Here*/
+
+
+/*ImportExport page Style start*/
+.wcb_export_import_wrapper textarea,.templates_textareay {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 200px;
+    margin-bottom: 3px;
+    max-height: 600px;
+    background: white;
+}
+.wcb_export_import_wrapper .wcb_title {
+    color: #0073aa;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+/*ImportExport page Style End*/
+/*Template Page Style start*/
+table.wcb_template_table,table.wcb_template_table td,table.wcb_template_table tr,table.wcb_template_table th{
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+.wcb_template_table tr.template_action_row:hover {
+    background: rgba(221, 221, 221, 0.6588235294117647);
+}
+table.wcb_template_table{
+    width: 100% !important;
+    background: white;
+}
+table.wcb_template_table th,table.wcb_template_table td{
+    padding: 5px 10px;
+}
+table.wcb_template_table .template_list_json_code{display: none;}
+th.wcb_exapnd_base64_code{cursor: pointer;}div.wcb_wrap .template_savezone {
+    background: white;
+    padding: 10px;
+}
+.template_savezone_wrapper {
+    border: 1px solid #4ba3cb45;
+    padding-bottom: 20px !important;
+}
+
+.template_savezone_wrapper>p {
+    color: #4083bf;
+    font-size: 22px;
+    line-height: 30px;
+}
+input#wcb_template_name_id {
+    min-width: 300px;
+}
+
+a.button.wcb_template_save_button {
+    background: #5b9dd9 !important;
+    color: white !important;
+    border: 2px solid #397cb9 !important;
+    font-weight: bold !important;
+}
+table.wcb_template_table tr.wcb_table_head th {
+    color: #fff;
+    font-size: 22px;
+    background: rgba(30, 140, 190, 0.8);
+    border: 1px solid rgba(30, 140, 190, 0.8);
+    font-weight: normal;
+    border-collapse: collapse;
+}
+.wcb_template_actions_wrapper .wc_beautifier_button {
+    background: #72777c;
+    border-color: #535b5f #283033 #006799;
+    box-shadow: 0 1px 0 #72777c;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none !important;
+}
+p.wcb_template_undone_warning {
+    display: block;
+    padding: 5px;
+    border: 1px solid #ffce27;
+    font-size: 16px;
+    color: #ca4e12;
+    background: #eaff98;
+    font-weight: 400;
+    margin: 0;
+}
+p.wcb_template_undone_warning>strong {
+    font-size: 17px;
+    display: inline-block;
+    color: red;
+    background: black;
+    padding: 3px 6px;
+    clear: both;
+}
+p.wcb_template_undone_warning>span {
+    display: block;
+    color: green;
+    font-weight: 500;
+}
+/*Template Page Style End*/
+
+/*Status and Support Page start*/
+.wcb_support_wrapper {
+    display: block;
+    margin: 10px 0;
+    background: #fbf0db;
+    padding: 0px 13px;
+    border: 1px solid #cebfa4;
+}
+.wcb_support_line {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+}
+th.wcb_status_name {
+    background: #f9f9f9;
+    font-weight: bold;
+}
+
+/*Status and Support Page end*/

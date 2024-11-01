@@ -1,0 +1,684 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Beautifier\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-09 13:01+0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3\n"
+
+#: admin/export_emport.php:18
+msgid "You have submitted empty data!"
+msgstr ""
+
+#: admin/export_emport.php:22 admin/menu_n_setting.php:33
+msgid "Import/Export"
+msgstr ""
+
+#: admin/export_emport.php:24
+msgid "Save your export code for backup. And If needed Import easily by Import textarea"
+msgstr ""
+
+#: admin/export_emport.php:28 admin/export_emport.php:32
+msgid "Import"
+msgstr ""
+
+#: admin/export_emport.php:30
+msgid "Import your encripted exported code"
+msgstr ""
+
+#: admin/export_emport.php:39
+msgid "Export Settings"
+msgstr ""
+
+#: admin/export_emport.php:43
+msgid "Your Setting is empty."
+msgstr ""
+
+#: admin/export_emport.php:45
+msgid "Copy the following encripted code and paste to any text file and save to make backup your setting."
+msgstr ""
+
+#: admin/general_tab.php:17
+msgid "Design Panel"
+msgstr ""
+
+#: admin/general_tab.php:19
+msgid "Beautify your WooCommerce default element design and style. Such as Add_to_cart, Order button, product title, price text etc."
+msgstr ""
+
+#: admin/general_tab.php:23
+msgid "Submitted Successfully."
+msgstr ""
+
+#: admin/general_tab.php:27
+msgid "CSS file Generated Successfully."
+msgstr ""
+
+#: admin/general_tab.php:29 frameworks/template_manage.php:138
+msgid "Something went wrong. Fail to create CSS file."
+msgstr ""
+
+#: admin/general_tab.php:37
+#, php-format
+msgid "Template Saved Successfully. Please check %s on WCB_Templates list"
+msgstr ""
+
+#: admin/general_tab.php:39
+msgid "Sorry, unable to save as template. Beacuse: there is no saved setting."
+msgstr ""
+
+#: admin/general_tab.php:46
+msgid "Template Imported Successfully"
+msgstr ""
+
+#: admin/general_tab.php:48
+msgid "Settings Imported Successfully"
+msgstr ""
+
+#: admin/general_tab.php:68
+msgid "Save Change"
+msgstr ""
+
+#: admin/general_tab.php:69
+msgid "Reset this tab"
+msgstr ""
+
+#: admin/general_tab.php:70
+msgid "Reset all tab"
+msgstr ""
+
+#: admin/general_tab.php:75
+msgid "Save as Template"
+msgstr ""
+
+#: admin/general_tab.php:76
+msgid "(Optional) insert a name & click ENTER"
+msgstr ""
+
+#: admin/general_tab.php:77
+msgid "Current Setting - Save as template"
+msgstr ""
+
+#: admin/general_tab.php:79
+msgid "Before Save as Template, Confirm your data is saved, Because new changed will not save as template."
+msgstr ""
+
+#: admin/menu_n_setting.php:15
+msgid "WC_Beautifier Page"
+msgstr ""
+
+#: admin/menu_n_setting.php:15 admin/menu_n_setting.php:32
+msgid "WC Beautifier"
+msgstr ""
+
+#: admin/menu_n_setting.php:16
+msgid "Support"
+msgstr ""
+
+#: admin/menu_n_setting.php:17 admin/menu_n_setting.php:35
+msgid "Status"
+msgstr ""
+
+#: admin/menu_n_setting.php:33
+msgid "Beautifier Import/Export"
+msgstr ""
+
+#: admin/menu_n_setting.php:34
+msgid "Templates list"
+msgstr ""
+
+#: admin/menu_n_setting.php:34 admin/templates.php:16
+msgid "Templates"
+msgstr ""
+
+#: admin/menu_n_setting.php:35
+msgid "Plugin Status"
+msgstr ""
+
+#: admin/no_woocommerce.php:13
+msgid "WooCommerce Not Found"
+msgstr ""
+
+#: admin/no_woocommerce.php:27
+#, php-format
+msgid "WC Beautifier requires WooCommerce to be installed and active. You can download %s here."
+msgstr ""
+
+#: admin/plugin_status.php:20
+#, php-format
+msgid "Plugin Status of %s"
+msgstr ""
+
+#: admin/plugin_status.php:24
+msgid "Name"
+msgstr ""
+
+#: admin/plugin_status.php:25
+msgid "Value"
+msgstr ""
+
+#: admin/plugin_status.php:45
+#, php-format
+msgid "For any Query, Contact with our %s Team. Or for any critical issue - mail me to my email: %s"
+msgstr ""
+
+#: admin/templates.php:18
+msgid "Warning:"
+msgstr ""
+
+#: admin/templates.php:18
+msgid "If you apply your chosen template Style/Design, your current design will be destroyed. Unable to undone."
+msgstr ""
+
+#: admin/templates.php:18
+msgid "So first save as template your current setting."
+msgstr ""
+
+#: admin/templates.php:32
+#, php-format
+msgid "Successfully Deleted %s from WCB_Templates list"
+msgstr ""
+
+#: admin/templates.php:49
+msgid "Templates Name(Date/Time wise)"
+msgstr ""
+
+#: admin/templates.php:50
+msgid "Actions (Apply / Delete)"
+msgstr ""
+
+#: admin/templates.php:61
+msgid "Apply Template. Remember: current setting will replace with this template. and Unable to undone."
+msgstr ""
+
+#: admin/templates.php:62
+msgid "Apply This Style"
+msgstr ""
+
+#: admin/templates.php:64
+msgid "Delete Template"
+msgstr ""
+
+#: admin/templates.php:64
+msgid "Delete"
+msgstr ""
+
+#: admin/templates.php:65
+msgid "Expand Generated Code"
+msgstr ""
+
+#: admin/templates.php:71
+#, php-format
+msgid "You can save this code to anywhere of %s Plugin. Just Copy and paste to Import page. Or you can also apply by [Apply This Style] button."
+msgstr ""
+
+#: admin/templates.php:78
+msgid "There is no saved templated founded"
+msgstr ""
+
+#: frameworks/form_array.php:13 frameworks/form_array.php:20
+#: frameworks/form_array.php:26 frameworks/form_array.php:33
+#: frameworks/form_array.php:41 frameworks/form_array.php:49
+msgid "None"
+msgstr ""
+
+#: frameworks/form_array.php:14
+msgid "Thin"
+msgstr ""
+
+#: frameworks/form_array.php:15 frameworks/form_array.php:23
+msgid "Normal"
+msgstr ""
+
+#: frameworks/form_array.php:16
+msgid "Bold"
+msgstr ""
+
+#: frameworks/form_array.php:17
+msgid "Bolder"
+msgstr ""
+
+#: frameworks/form_array.php:21
+msgid "Italic"
+msgstr ""
+
+#: frameworks/form_array.php:22
+msgid "Oblique"
+msgstr ""
+
+#: frameworks/form_array.php:27
+msgid "Repeat"
+msgstr ""
+
+#: frameworks/form_array.php:28
+msgid "No Repeat"
+msgstr ""
+
+#: frameworks/form_array.php:29
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: frameworks/form_array.php:30
+msgid "Repeat Vertically"
+msgstr ""
+
+#: frameworks/form_array.php:34 frameworks/form_array.php:43
+#: frameworks/form_array.php:50
+msgid "Initial"
+msgstr ""
+
+#: frameworks/form_array.php:35
+msgid "Scroll"
+msgstr ""
+
+#: frameworks/form_array.php:36
+msgid "Fixed"
+msgstr ""
+
+#: frameworks/form_array.php:37
+msgid "Local"
+msgstr ""
+
+#: frameworks/form_array.php:38 frameworks/form_array.php:46
+msgid "Inherit"
+msgstr ""
+
+#: frameworks/form_array.php:42
+msgid "Auto/Default"
+msgstr ""
+
+#: frameworks/form_array.php:44
+msgid "Cover"
+msgstr ""
+
+#: frameworks/form_array.php:45
+msgid "Contain"
+msgstr ""
+
+#: frameworks/form_array.php:51
+msgid "Left Top"
+msgstr ""
+
+#: frameworks/form_array.php:52
+msgid "Left Center"
+msgstr ""
+
+#: frameworks/form_array.php:53
+msgid "Left Bottom"
+msgstr ""
+
+#: frameworks/form_array.php:54
+msgid "Right Top"
+msgstr ""
+
+#: frameworks/form_array.php:55
+msgid "Right center"
+msgstr ""
+
+#: frameworks/form_array.php:56
+msgid "Right Bottom"
+msgstr ""
+
+#: frameworks/form_array.php:57
+msgid "Center Top"
+msgstr ""
+
+#: frameworks/form_array.php:58
+msgid "Center Center"
+msgstr ""
+
+#: frameworks/form_array.php:59
+msgid "Center Bottom"
+msgstr ""
+
+#: frameworks/form_array.php:66
+msgid "Global Setting"
+msgstr ""
+
+#: frameworks/form_array.php:67
+msgid "This tab setting value is global. That means this setting value will impact to whole WooCommerce elements - by default. But if you want to set any particular change for any specific page, you need to change in that particular tab. For Example: Mini cart, Shop page, Category Page, Tag Page tab."
+msgstr ""
+
+#: frameworks/form_array.php:74 frameworks/form_array.php:485
+#: frameworks/form_array.php:822
+msgid "Background Settings"
+msgstr ""
+
+#: frameworks/form_array.php:75
+msgid "Global's background will set to the all page, where found body class .woocommerce or .woocommerce-page ."
+msgstr ""
+
+#: frameworks/form_array.php:79 frameworks/form_array.php:489
+#: frameworks/form_array.php:826
+msgid "Background Image"
+msgstr ""
+
+#: frameworks/form_array.php:86 frameworks/form_array.php:496
+#: frameworks/form_array.php:833
+msgid "Background Color"
+msgstr ""
+
+#: frameworks/form_array.php:94 frameworks/form_array.php:504
+#: frameworks/form_array.php:841
+msgid "Background Repeat"
+msgstr ""
+
+#: frameworks/form_array.php:102 frameworks/form_array.php:512
+#: frameworks/form_array.php:849
+msgid "Background Position"
+msgstr ""
+
+#: frameworks/form_array.php:110 frameworks/form_array.php:520
+#: frameworks/form_array.php:857
+msgid "Background Attachment"
+msgstr ""
+
+#: frameworks/form_array.php:118 frameworks/form_array.php:528
+#: frameworks/form_array.php:865
+msgid "Background Size"
+msgstr ""
+
+#: frameworks/form_array.php:128
+msgid "General"
+msgstr ""
+
+#: frameworks/form_array.php:132
+msgid "Rating color"
+msgstr ""
+
+#: frameworks/form_array.php:140
+msgid "In Stock color"
+msgstr ""
+
+#: frameworks/form_array.php:148
+msgid "In Stock Fontweight"
+msgstr ""
+
+#: frameworks/form_array.php:156
+msgid "In Stock FontStyle"
+msgstr ""
+
+#: frameworks/form_array.php:166
+msgid "Out of Stock color"
+msgstr ""
+
+#: frameworks/form_array.php:174
+msgid "Out of Stock Fontweight"
+msgstr ""
+
+#: frameworks/form_array.php:182
+msgid "Out of Stock FontStyle"
+msgstr ""
+
+#: frameworks/form_array.php:192
+msgid "Sale Badge"
+msgstr ""
+
+#: frameworks/form_array.php:196 frameworks/form_array.php:448
+msgid "Text color"
+msgstr ""
+
+#: frameworks/form_array.php:204 frameworks/form_array.php:311
+#: frameworks/form_array.php:368 frameworks/form_array.php:434
+#: frameworks/form_array.php:466 frameworks/form_array.php:550
+#: frameworks/form_array.php:771 frameworks/form_array.php:887
+#: frameworks/form_array.php:1051 frameworks/form_array.php:1108
+msgid "BG color"
+msgstr ""
+
+#: frameworks/form_array.php:212
+msgid "Border Color"
+msgstr ""
+
+#: frameworks/form_array.php:220
+msgid "Border Radius"
+msgstr ""
+
+#: frameworks/form_array.php:228 frameworks/form_array.php:277
+#: frameworks/form_array.php:319 frameworks/form_array.php:376
+#: frameworks/form_array.php:559 frameworks/form_array.php:723
+#: frameworks/form_array.php:779 frameworks/form_array.php:896
+#: frameworks/form_array.php:952 frameworks/form_array.php:1001
+#: frameworks/form_array.php:1059 frameworks/form_array.php:1116
+msgid "Font Weight"
+msgstr ""
+
+#: frameworks/form_array.php:236 frameworks/form_array.php:285
+#: frameworks/form_array.php:327 frameworks/form_array.php:384
+#: frameworks/form_array.php:567 frameworks/form_array.php:732
+#: frameworks/form_array.php:787 frameworks/form_array.php:904
+#: frameworks/form_array.php:961 frameworks/form_array.php:1009
+#: frameworks/form_array.php:1067 frameworks/form_array.php:1124
+msgid "Font Style"
+msgstr ""
+
+#: frameworks/form_array.php:244 frameworks/form_array.php:335
+#: frameworks/form_array.php:392 frameworks/form_array.php:575
+#: frameworks/form_array.php:740 frameworks/form_array.php:795
+#: frameworks/form_array.php:912 frameworks/form_array.php:969
+#: frameworks/form_array.php:1017 frameworks/form_array.php:1075
+#: frameworks/form_array.php:1132
+msgid "Font Size"
+msgstr ""
+
+#: frameworks/form_array.php:252 frameworks/form_array.php:343
+#: frameworks/form_array.php:400 frameworks/form_array.php:584
+#: frameworks/form_array.php:748 frameworks/form_array.php:803
+#: frameworks/form_array.php:920 frameworks/form_array.php:977
+#: frameworks/form_array.php:1025 frameworks/form_array.php:1083
+#: frameworks/form_array.php:1140
+msgid "Padding"
+msgstr ""
+
+#: frameworks/form_array.php:265 frameworks/form_array.php:989
+msgid "Price"
+msgstr ""
+
+#: frameworks/form_array.php:269 frameworks/form_array.php:302
+#: frameworks/form_array.php:359 frameworks/form_array.php:542
+#: frameworks/form_array.php:763 frameworks/form_array.php:879
+#: frameworks/form_array.php:935 frameworks/form_array.php:993
+#: frameworks/form_array.php:1042 frameworks/form_array.php:1099
+msgid "Color"
+msgstr ""
+
+#: frameworks/form_array.php:297 frameworks/form_array.php:1038
+msgid "Add to cart button"
+msgstr ""
+
+#: frameworks/form_array.php:355 frameworks/form_array.php:1095
+msgid "Add to cart button hover"
+msgstr ""
+
+#: frameworks/form_array.php:412
+msgid "Success Message Box"
+msgstr ""
+
+#: frameworks/form_array.php:416
+msgid "text color"
+msgstr ""
+
+#: frameworks/form_array.php:425 frameworks/form_array.php:457
+msgid "Link color"
+msgstr ""
+
+#: frameworks/form_array.php:444
+msgid "Warning Message Box"
+msgstr ""
+
+#: frameworks/form_array.php:479
+msgid "Checkout Page"
+msgstr ""
+
+#: frameworks/form_array.php:480
+msgid "Firstly, the design/style will come from the 'Global Setting' tab. But when you set new setting to this tab, these settings (design/style) will override the 'Global Setting' to Check Out Page's elements. Such as product name, price, add to cart button, checkout button, placeorder button, rating color etc."
+msgstr ""
+
+#: frameworks/form_array.php:538 frameworks/form_array.php:875
+msgid "Page Title"
+msgstr ""
+
+#: frameworks/form_array.php:595
+msgid "Coupon Section"
+msgstr ""
+
+#: frameworks/form_array.php:599
+msgid "Coupon box BG color"
+msgstr ""
+
+#: frameworks/form_array.php:607
+msgid "Coupon box Padding"
+msgstr ""
+
+#: frameworks/form_array.php:615
+msgid "Apply button Color"
+msgstr ""
+
+#: frameworks/form_array.php:624
+msgid "Apply button BG color"
+msgstr ""
+
+#: frameworks/form_array.php:632
+msgid "Apply button Font Weight"
+msgstr ""
+
+#: frameworks/form_array.php:640
+msgid "Apply button Font Style"
+msgstr ""
+
+#: frameworks/form_array.php:648
+msgid "Apply button Font Size"
+msgstr ""
+
+#: frameworks/form_array.php:656
+msgid "Apply button Padding"
+msgstr ""
+
+#: frameworks/form_array.php:670
+msgid "Payment Method Section"
+msgstr ""
+
+#: frameworks/form_array.php:675
+msgid "Selected icon color"
+msgstr ""
+
+#: frameworks/form_array.php:683
+msgid "BG Color"
+msgstr ""
+
+#: frameworks/form_array.php:691
+msgid "Label Color"
+msgstr ""
+
+#: frameworks/form_array.php:702
+msgid "Place Order Button"
+msgstr ""
+
+#: frameworks/form_array.php:706
+msgid "Text Color"
+msgstr ""
+
+#: frameworks/form_array.php:714
+msgid "Button BG"
+msgstr ""
+
+#: frameworks/form_array.php:759
+msgid "Place Order Button Hover"
+msgstr ""
+
+#: frameworks/form_array.php:816
+msgid "Shop Page"
+msgstr ""
+
+#: frameworks/form_array.php:817
+msgid "Firstly, the design/style will come from the 'Global Setting' tab. But when you set new setting to this tab, these settings (design/style) will override the 'Global Setting' to Main Shop Page elements. Such as page title, product name, price, add to cart button, checkout button, rating color etc."
+msgstr ""
+
+#: frameworks/form_array.php:931
+msgid "Product name"
+msgstr ""
+
+#: frameworks/form_array.php:943
+msgid "Hover color"
+msgstr ""
+
+#: frameworks/form_generator.php:290
+msgid "No elements founded!"
+msgstr ""
+
+#: frameworks/form_generator.php:478
+#, php-format
+msgid "Sorry, The %s 's has no options Array."
+msgstr ""
+
+#: frameworks/template_manage.php:141
+msgid "Something went wrong. Your imported code is not valid."
+msgstr ""
+
+#: assets/js/beautifier_script.js:18
+msgid "Are you sure to reset ["
+msgstr ""
+
+#: assets/js/beautifier_script.js:18
+msgid ""
+"] tab's data?\n"
+"Unable to reback."
+msgstr ""
+
+#: assets/js/beautifier_script.js:39
+msgid ""
+"Are you sure to reset all tab's data?\n"
+"Unable to reback."
+msgstr ""
+
+#: assets/js/beautifier_script.js:82
+msgid ""
+"Are you sure!\n"
+" TO "
+msgstr ""
+
+#: assets/js/beautifier_script.js:90
+msgid ""
+"Are you sure!\n"
+"Current setting,You want to save. Click Ok"
+msgstr ""
+
+#: assets/js/beautifier_script.js:108
+msgid "Template name should min: 4 charecters or Emplty"
+msgstr ""
+
+#: assets/js/beautifier_script.js:195
+msgid "Chose background image"
+msgstr ""
+
+#: assets/js/beautifier_script.js:197
+msgid "Select"
+msgstr ""
+
+#. Name of the plugin
+msgid "WooCommerce Beautifier"
+msgstr ""
+
+#. Description of the plugin
+msgid "WooCommerce Beautifier plugin gives you a plenty of options to customize the design of your WooCommerce shop. With this plugin you will be able to change/customize your site Design/Style/Color/Font-Size/Padding etc of your Shop for all page content, Minicart content, Cart page content, Checkout page content, Category and Tag page content. Such as product title, price,add to cart button,sale badge,page title,placeorder button, select option button etc. You can change color, font size,font style,font-family,padding,background color etc."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://codecanyon.net/item/woocommerce-beautifier-a-beauty-parlour-of-woocommerce/23386133"
+msgstr ""
+
+#. Author of the plugin
+msgid "CodeAstrology"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://codecanyon.net/user/codeastrology"
+msgstr ""
